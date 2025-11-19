@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club deportivo AZUL - página oficial</title>
+    <link rel="icon" type="image/png" href="img/logo.webp">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Club Deportivo AZUL</h1>
+        <img src="img/Logo.webp" alt="100" width="100">
+        <p>Pasion, Tradicion y Gloria</p>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#jugadores">Jugadores</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#momentos">Momentos</a></li>
+            <li><a href="#contacto">Contactp</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="Inicio">
+            <h2> Bienvenidos al Club Deportivo AZUL</h2>
+            <p>Somos más que un equipo de fútbol, somos una familia. Con mas de 100 años de historia, representamis los valores del deporte, la dedicación y el trabajo en equipo.</p>
+
+            <h3>Proximo Partido</h3>
+            <p><strong>CD AZUL vs Real Esperanza</strong></p>
+            <p>Estadio AZUL - sabádo 15 de junio, 20:00h</p>
+            <p><a href="entradas.html">¡Consigue tus entradas aquí!!</a></p>
+
+        <h3>Ultimo Resultado</h3>
+        <p>CD AZUL 3 - 1 Atlético Norte</p>
+        <p>Goles: Martínez (2), Rodríguez</p>
+        </section>
+
+        <section id="noticias">
+            <h2>Noticias Destacadas</h2>
+
+            <article>
+                <h3>Nueva contratación: Diego Torres</h3>
+                <p>El Club Deportivo AZUL anuncia la incorporación del mediocampista Diego Torres, Proviniente del FC Victoria. Con 28 años y amplia experiencia en primera división, se espera que fortalezca nuestro centro del campo.</p>
+                <p> <em>Publicado: 5 de junio 2023.</em></p>
+            </article>
+
+            <article>
+                <h3>Inaguración de la nueva academia juvenil.</h3>
+                <p> Este mes hemos inagurado  nuestras instalaciones para la academia de futbol base, con capasidad para 200 jugadores entre 6 y 18 años. Un paso más en nuestro compromiso con el fútbol local.</p>
+                <p><em>Publicado: 1 de junio, 2023</em></p>
+            </article>
+        </section>
+        <section id="Jugadores">
+            <h2>Jugadores Destacados</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Posición</th>
+                    <th>Partidos</th>
+                    <th>Goles</th>
+                </tr>
+                <tr>
+                    <td>Carlos Martínez</td>
+                    <td>Delantero</td>
+                    <td>24</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Javier Rodríguez</td>
+                    <td>Centrocampista</td>
+                    <td>26</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Miguel Sánchez</td>
+                    <td>Portero</td>
+                    <td>28</td>
+                    <td>-</td>
+                </tr>
+            </table>
+            <p class="click"><a href="jugadores.html">Ver planilla completa</a></p>
+        </section>
+
+         <section id="galeria">
+            <h2>GALERIA</h2>
+            <div>
+                <img src="https://i.pinimg.com/736x/78/b1/78/78b178619dc18bffa2438c36f629aca5.jpg" alt="Imagen 1" width="300">
+                <img src="https://i1.sndcdn.com/avatars-ORtJIqEsdLneapn3-ayE9BQ-t240x240.jpg" alt="Imagen 2" width="300">
+                <img src="https://images.ecestaticos.com/Q0suvieqVBzZPBS3FmLfHMG2-10=/2x112:1520x968/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Faa5%2F3ba%2Faf2%2Faa53baaf2517a8184fcdd3ce0894168c.jpg" alt="Imagen 3" width="300">
+            </div>
+            <p class="click"><a href="galeria.html">Ver más fotos</a></p>
+        </section>
+
+        <section id="momentos">
+            <h2>MOMENTOS DESTACADOS</h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/jAoLtJAA5sU?si=2D7SpT007xENEA1x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Revive los mejores momentos de nuestra última victoria 3-1 contra el Atlético Norte.</p>
+        </section>
+
+<section id="contacto">
+    <h2>CONTACTA CON NOSOTROS</h2>
+
+    <form action="#">
+        <div class="form-columns">
+            <fieldset>
+                <legend>INFORMACIÓN PERSONAL</legend>
+
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono (Opcional):</label>
+                <input type="tel" name="telefono" id="telefono">
+            </fieldset>
+
+            <fieldset>
+                <legend>TU MENSAJE</legend>
+
+                <label for="asunto">Asunto:</label>
+                <select name="asunto" id="asunto">
+                    <option value="general">Consulta general</option>
+                    <option value="entradas">Información sobre entradas</option>
+                    <option value="socios">Información para socios</option>
+                    <option value="prensa">Prensa y medios</option>
+                    <option value="otras">Otros</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+
+                <label for="newsletter" class="checkbox-label">
+                    <input type="checkbox" id="newsletter" value="si">
+                    Suscribirme al boletín de noticias
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="form-buttons">
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Limpiar Formulario">
+        </div>
+    </form>
+</section>
+    </main>
+
+<footer class="footer">
+    <div class="contenini">
+        
+        <div class="click">
+            <h4>Club Deportivo AZUL</h4>
+            <p>2800 Ciudad Azul</p>
+            <p>Teléfono: +57 313 66 59 532</p>
+            <p>Email: club_azul@gm.com.es</p>
+        </div>
+
+        <div class="click">
+            <h4>Síguenos en</h4>
+            <ul class="links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+
+        <div class="click">
+            <p><small>&copy; Club Deportivo AZUL. Todos los derechos reservados.</small></p>
+            <p><small><a href="privacidad.html">Políticas de Privacidad</a> | <a href="cookies.html">Cookies</a></small></p>
+        </div>
+
+    </div>
+</footer>
+    </main>
+</body>
+</html>
